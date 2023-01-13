@@ -41,7 +41,7 @@
 }
 
 body {
-    background: url(../images/bg-about.jpg) center/contain;
+    background: url(../images/bg_about.jpg) center/contain;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -52,7 +52,7 @@ body {
 }
 
 #bg-fixed {
-    background: url(../images/music-7.jpeg) center/cover;
+    background: url(../images/music_7.jpeg) center/cover;
     background-attachment: fixed;
     height: 300px;
 }
