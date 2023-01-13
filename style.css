@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bg-swicher {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(年間研究images/ガチャポン2.jpeg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.bg-swicher h1 {
+    color: #fff;
+    font-size: 130px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, .3);
+    margin: 30px;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.heading {
+    font-family: "Bubblegum Sans", cursive;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#about {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about-title {
+    margin-bottom: 10px;
+}
+
+body {
+    background: url(../年間研究images/bg-about.jpg) center/contain;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.fadein {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s;
+}
+
+#bg-fixed {
+    background: url(../年間研究images/music-7.jpeg) center/cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+
+#limited {
+    padding: 100px 0;
+}
+
+.slick-initialized .slick-slide {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 3px solid #dcdcdc;
+    border-radius: 10px;
+    height: 350px;
+    margin: 50px 50px 0 50px;
+    padding: 50px;
+}
+
+.slide-img {
+    width: 40%;
+}
+
+.slide-box {
+    padding-left: 30px;
+    width: 60%;
+}
+
+.slide-title {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.slider-0 {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    background-color: aquamarine;
+    color: #fff;
+    width: 300px;
+    line-height: 110px;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.slider-1 {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    background-color: rgb(232, 64, 64);
+    color: #fff;
+    width: 300px;
+    line-height: 110px;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.slider-2 {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    background-color: rgb(63, 126, 243);
+    color: #fff;
+    width: 300px;
+    line-height: 110px;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.slider-3 {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    background-color: rgb(254, 248, 65);
+    color: #fff;
+    width: 300px;
+    line-height: 110px;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+}
