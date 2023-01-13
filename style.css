@@ -52,7 +52,7 @@ body {
 }
 
 #bg-fixed {
-    background: url(../images/music_7.jpeg) center/cover;
+    background: url("https://github.com/Aii-s/gachaponsongs/blob/main/images/music_7.jpeg?raw=true") center/cover;
     background-attachment: fixed;
     height: 300px;
 }
