@@ -4,7 +4,7 @@ function transision(i) {
 
 $(function($) {
     $('.bg-swicher').bgswitcher({
-        images: ['年間研究images/ガチャポン2.jpeg', '年間研究images/ガチャポン3.jpeg', '年間研究images/ガチャポン4.jpeg'],
+        images: ['images/gacha2.jpeg', 'images/gacha3.jpeg', 'images/gacha4.jpeg'],
         interval: 5000,
         loop: true
     });
