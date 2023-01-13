@@ -41,7 +41,7 @@
 }
 
 body {
-    background: url(../images/bg_about.jpg) center/contain;
+    background: url("https://github.com/Aii-s/gachaponsongs/blob/main/images/bg_about.jpg?raw=true") center/contain;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
